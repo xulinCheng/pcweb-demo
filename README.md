@@ -35,5 +35,3 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 2.退出时：清除用户信息和token
 3.通过对token的判断，限制用户在登录的状态下 不能退回到登陆界面
 4.跨域配置在vue.config.js里面 -- proxy配置
-
-疑问 axios的axios.defaults.headers和axios.headers 区别是什么？？？

@@ -5,9 +5,9 @@ module.exports = {
         proxy: { //如需跨域请求多个域名，在此对象进行扩展即可
             '/apis': {
                 // target: 'http://www.***.com/',
-                target: 'http://10.100.3.99',
+                target: 'localhost:8080',
                 ws: false, //是否使用websocket
-                changeOrigin: true,
+                changeOrigin: false,
                 pathRewrite: {
                     '^/apis': ''
                 }
